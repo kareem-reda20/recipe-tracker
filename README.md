@@ -1,14 +1,22 @@
-Recipe Tracker
-A simple JavaScript project for tracking recipes, calculating ingredient counts, and determining difficulty levels based on cooking time.
+# Recipe Tracker
 
-Features
-Store recipes in a central array.
+A JavaScript exercise built while learning Full Stack Development.
 
-Calculate the number of ingredients with getTotalIngredients.
+## What it does
 
-Determine difficulty level (easy, medium, hard) using getDifficultyLevel.
+Stores a list of recipes and automatically calculates metadata for each one.
 
-Display all recipes in a structured format.
+- `getTotalIngredients()` — counts the number of ingredients in a recipe
+- `getDifficultyLevel()` — determines difficulty based on cooking time (easy / medium / hard)
 
-Project Structure
-recipes.js: Contains recipe objects and helper functions.
+## How to run
+
+```bash
+node recipe-tracker.js
+```
+
+## What I practiced
+
+- Arrays of objects
+- Using `push()` to populate an array
+- Writing helper functions and applying them to update object properties
